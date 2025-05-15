@@ -3,7 +3,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import "./RulesCarousel.css";
 
-const handleDragStart = (e) => e.preventDefault();
+const handleDragStart = (e: React.DragEvent) => e.preventDefault();
 
 const items = [
 	<div key={0} onDragStart={handleDragStart}>

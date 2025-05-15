@@ -1,8 +1,0 @@
-.cocktail-ingredients {
-	display: flex;
-	flex-direction: column;
-}
-.cocktail-ingredients ul {
-	list-style: none;
-	font-size: 10px;
-}
